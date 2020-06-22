@@ -163,22 +163,38 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-.head {
+h4 {
   display: flex;
-  align-items: baseline;
   flex-wrap: nowrap;
-  color: green;
-}
-nav a {
-  color: red;
-}
-.links {
+  width: 20rem;
   color: purple;
 }
 nav {
   display: flex;
   flex-wrap: nowrap;
   align-items: baseline;
+  border: 1px dotted black;
+  padding: 1rem;
+  margin-bottom: 9rem;
+}
+nav a {
+  color: red;
+  font-size: 2rem;
+  width: 15rem;
+  text-decoration: none;
+}
+nav .linksLeft {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 5rem;
+}
+nav .linksRight {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 47rem;
+}
+.container {
+  margin: 0 auto;
 }
 .picture {
   height: 35rem;
@@ -190,14 +206,29 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+  font-size: 5rem;
+}
+.picture .boldMe {
+  font-weight: bolder;
 }
 .lowerHalf {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 0 30% 0 30%;
+  margin: 0 35% 0 35%;
+  padding-top: 3rem;
 }
 .clickMe {
   display: flex;
   justify-content: center;
+  padding-top: 2rem;
+  margin: 0 35% 0 35%;
+}
+.clickMe .button {
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 100%;
 }
