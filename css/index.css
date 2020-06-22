@@ -82,7 +82,226 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 62.5;
+  font-size: 62.5%;
   font: inherit;
   vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Indie Flower', cursive;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 1rem;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+p {
+  line-height: 2.3rem;
+  font-size: 1.6rem;
+  padding-bottom: 1rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+h4 {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 20rem;
+  color: purple;
+}
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  border: 1px dotted black;
+  padding: 1rem;
+}
+nav a {
+  color: red;
+  font-size: 2rem;
+  width: 15rem;
+  text-decoration: none;
+}
+nav .linksLeft {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 5rem;
+}
+nav .linksRight {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 47rem;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.picture {
+  height: 35rem;
+  border: 1px solid black;
+  width: 100%;
+  margin: 0 auto;
+}
+.picture h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-size: 5rem;
+}
+.picture .boldMe {
+  font-weight: bolder;
+}
+.picture .inspiring {
+  margin-top: 9rem;
+}
+.lowerHalf {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 35% 0 35%;
+  padding-top: 3rem;
+}
+.clickMe {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  margin: 0 35% 0 35%;
+}
+.clickMe .button {
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 100%;
+}
+.container {
+  margin: 0 auto;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.boxes .box9 {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.boxes .box1 {
+  margin: 5% 10% 0% 10%;
+}
+.boxes .box2 {
+  margin-top: 5%;
+  margin-right: 10%;
+}
+.boxes .box3 {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.boxes .box4 {
+  margin: 5% 10% 0% 10%;
+}
+.boxes .box5 {
+  margin-top: 5%;
+  margin-right: 10%;
+}
+.boxes .box6 {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.boxes .box7 {
+  margin: 5% 10% 0% 10%;
+}
+.boxes .box8 {
+  margin-top: 5%;
+  margin-right: 10%;
+}
+img {
+  height: 15rem;
+  width: 15rem;
+}
+.pics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.names {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+.titles {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+.descrip {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  padding-bottom: 4rem;
 }
