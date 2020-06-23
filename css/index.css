@@ -167,7 +167,8 @@ h4 {
 }
 @media (max-width: 500px) {
   h4 {
-    padding: 2rem 0rem 2rem 1rem;
+    padding: 1.5rem 0rem 2rem 0rem;
+    margin-left: 2rem;
   }
 }
 .navigator {
@@ -179,6 +180,7 @@ h4 {
 @media (max-width: 500px) {
   .inNav {
     background-color: #175517;
+    border-bottom: 1px solid black;
   }
 }
 .linksAll {
@@ -219,7 +221,7 @@ h4 {
 .picture {
   height: 35rem;
   border: 2px solid black;
-  width: 100%;
+  width: 99%;
   margin: 0 auto;
   background-image: url(https://d39l2hkdp2esp1.cloudfront.net/img/photo/174043/174043_00_2x.jpg);
 }
@@ -230,6 +232,11 @@ h4 {
   flex-direction: row;
   font-size: 5rem;
   color: white;
+}
+@media (max-width: 500px) {
+  .picture h1 {
+    font-size: 3.5rem;
+  }
 }
 .picture .boldMe {
   font-weight: bolder;
@@ -247,7 +254,7 @@ h4 {
 }
 @media (max-width: 500px) {
   .lowerHalf {
-    margin: 0% 20% 5% 20%;
+    margin: 0% 10% 5% 10%;
   }
 }
 @media (max-width: 500px) {
@@ -295,9 +302,8 @@ h4 {
     color: white;
     border-radius: 8px;
     padding: 1rem;
-    width: 90%;
+    width: 100%;
     font-weight: bold;
-    margin: 1%;
   }
 }
 .clickMe .button3 {
@@ -310,9 +316,9 @@ h4 {
     background-color: white;
     border-radius: 8px;
     padding: 1rem;
-    width: 90%;
+    width: 100%;
     font-weight: bold;
-    margin: 1%;
+    margin: 5% 0% 10% 0%;
   }
 }
 .meetThe {
@@ -418,6 +424,11 @@ img {
   width: 25rem;
   height: 25rem;
   border: 2px solid #175517;
+}
+@media (max-width: 500px) {
+  img {
+    border: 0px solid #175517;
+  }
 }
 .words {
   display: flex;
