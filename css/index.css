@@ -159,7 +159,6 @@ img {
   height: auto;
 }
 .container {
-  max-width: 800px;
   width: 100%;
   margin: 0 auto;
 }
@@ -167,17 +166,22 @@ h4 {
   display: flex;
   flex-wrap: nowrap;
   width: 20rem;
-  color: purple;
+  color: white;
+}
+.navigator {
+  background-color: #175517;
+}
+.inNav {
+  background-color: rgba(0, 7, 1, 0.2);
 }
 nav {
   display: flex;
   flex-wrap: nowrap;
   align-items: baseline;
-  border: 1px dotted black;
   padding: 1rem;
 }
 nav a {
-  color: red;
+  color: white;
   font-size: 2rem;
   width: 15rem;
   text-decoration: none;
@@ -194,13 +198,15 @@ nav .linksRight {
 }
 .container {
   margin: 0 auto;
-  max-width: 1000px;
+  display: flex;
+  justify-content: center;
 }
 .picture {
   height: 35rem;
-  border: 1px solid black;
+  border: 2px solid black;
   width: 100%;
   margin: 0 auto;
+  background-image: url(https://d39l2hkdp2esp1.cloudfront.net/img/photo/174043/174043_00_2x.jpg);
 }
 .picture h1 {
   display: flex;
@@ -208,9 +214,11 @@ nav .linksRight {
   align-items: center;
   flex-direction: row;
   font-size: 5rem;
+  color: white;
 }
 .picture .boldMe {
   font-weight: bolder;
+  font-style: italic;
 }
 .picture .inspiring {
   margin-top: 9rem;
@@ -229,14 +237,11 @@ nav .linksRight {
   margin: 0 35% 0 35%;
 }
 .clickMe .button {
-  background-color: green;
+  background-color: #016b01;
   color: white;
   border-radius: 8px;
   padding: 1rem;
   width: 100%;
-}
-.container {
-  margin: 0 auto;
 }
 .boxes {
   display: flex;
@@ -244,10 +249,11 @@ nav .linksRight {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  background-image: url(https://i.pinimg.com/originals/68/45/f8/6845f840bcea7dd32e05a45977e2fd35.jpg);
 }
 .boxes .box9 {
   margin-top: 5%;
-  margin-left: 10%;
+  margin-left: 20%;
 }
 .boxes .box1 {
   margin: 5% 10% 0% 10%;
@@ -258,18 +264,17 @@ nav .linksRight {
 }
 .boxes .box3 {
   margin-top: 5%;
-  margin-left: 10%;
 }
 .boxes .box4 {
   margin: 5% 10% 0% 10%;
 }
 .boxes .box5 {
   margin-top: 5%;
-  margin-right: 10%;
+  margin-right: 20%;
 }
 .boxes .box6 {
   margin-top: 5%;
-  margin-left: 10%;
+  margin-left: 20%;
 }
 .boxes .box7 {
   margin: 5% 10% 0% 10%;
@@ -293,15 +298,24 @@ img {
   justify-content: center;
   font-size: 2rem;
   padding-top: 1rem;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-weight: bolder;
 }
 .titles {
   display: flex;
   justify-content: center;
   font-size: 2rem;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-weight: bolder;
 }
 .descrip {
   display: flex;
   justify-content: center;
   font-size: 2rem;
   padding-bottom: 4rem;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-weight: bolder;
 }
