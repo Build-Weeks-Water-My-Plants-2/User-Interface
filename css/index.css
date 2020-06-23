@@ -165,11 +165,21 @@ h4 {
   color: white;
   padding: 0rem 4rem 0rem 2rem;
 }
+@media (max-width: 500px) {
+  h4 {
+    padding: 2rem 0rem 2rem 1rem;
+  }
+}
 .navigator {
   background-color: #175517;
 }
 .inNav {
   background-color: rgba(0, 7, 1, 0.2);
+}
+@media (max-width: 500px) {
+  .inNav {
+    background-color: #175517;
+  }
 }
 .linksAll {
   display: flex;
@@ -195,6 +205,11 @@ h4 {
   font-size: 2rem;
   text-decoration: none;
   padding: 2rem;
+}
+@media (max-width: 500px) {
+  .links {
+    display: none;
+  }
 }
 .container {
   margin: 0 auto;
@@ -230,11 +245,33 @@ h4 {
   margin: 0 35% 0 35%;
   padding-top: 3rem;
 }
+@media (max-width: 500px) {
+  .lowerHalf {
+    margin: 0% 20% 5% 20%;
+  }
+}
+@media (max-width: 500px) {
+  .lowerHalf p {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  .lowerHalf .bottomPara {
+    display: none;
+  }
+}
 .clickMe {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   padding-top: 2rem;
   margin: 0 35% 0 35%;
+}
+@media (max-width: 500px) {
+  .clickMe {
+    margin: 0% 5% 0% 5%;
+    padding-top: 0rem;
+  }
 }
 .clickMe .button {
   background-color: #016b01;
@@ -242,6 +279,49 @@ h4 {
   border-radius: 8px;
   padding: 1rem;
   width: 100%;
+}
+@media (max-width: 500px) {
+  .clickMe .button {
+    display: none;
+  }
+}
+.clickMe .button2 {
+  display: none;
+}
+@media (max-width: 500px) {
+  .clickMe .button2 {
+    display: initial;
+    background-color: #016b01;
+    color: white;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 90%;
+    font-weight: bold;
+    margin: 1%;
+  }
+}
+.clickMe .button3 {
+  display: none;
+}
+@media (max-width: 500px) {
+  .clickMe .button3 {
+    display: initial;
+    color: #016b01;
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 90%;
+    font-weight: bold;
+    margin: 1%;
+  }
+}
+.meetThe {
+  display: flex;
+  justify-content: center;
+  font-size: 4.8rem;
+  color: #175517;
+  padding-top: 5rem;
+  text-decoration: underline;
 }
 .boxes {
   display: flex;
@@ -331,36 +411,42 @@ h4 {
   width: 40%;
 }
 .boxes .box10 img {
-  height: 20rem;
-  width: 20rem;
+  height: 25rem;
+  width: 25rem;
 }
 img {
-  width: 15rem;
-  height: 15rem;
+  width: 25rem;
+  height: 25rem;
+  border: 2px solid #175517;
 }
 .words {
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 10%;
+  padding: 5%;
 }
 .words .names {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: white;
   text-shadow: -1px -1px 0 #175517, 1px -1px 0 #175517, -1px 1px 0 #175517, 1px 1px 0 #175517;
   font-weight: bolder;
+  padding: 1rem;
 }
 .words .titles {
   font-size: 2rem;
   color: white;
   text-shadow: -1px -1px 0 #175517, 1px -1px 0 #175517, -1px 1px 0 #175517, 1px 1px 0 #175517;
   font-weight: bolder;
+  font-style: italic;
   display: flex;
   flex-wrap: nowrap;
+  padding: 1rem;
 }
 .words .descrip {
   font-size: 2rem;
   color: white;
   text-shadow: -1px -1px 0 #175517, 1px -1px 0 #175517, -1px 1px 0 #175517, 1px 1px 0 #175517;
   font-weight: bolder;
+  font-style: italic;
+  padding: 1rem;
 }

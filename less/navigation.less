@@ -3,12 +3,18 @@ h4 {
     flex-wrap: nowrap;
     color: white;
     padding: 0rem 4rem 0rem 2rem;
+    @media @mobile {
+        padding: 2rem 0rem 2rem 1rem;
+    }
 }
 .navigator {
     background-color: rgb(23, 85, 23);
 }
 .inNav {
     background-color: rgba(0, 7, 1, 0.2);
+    @media @mobile {
+        background-color: rgb(23, 85, 23);
+    }
 }
 .linksAll {
     display: flex;
@@ -33,6 +39,11 @@ h4 {
         font-size: 2rem;
         text-decoration: none;
         padding: 2rem;
+    }
+}
+.links {
+    @media @mobile {
+        display: none;
     }
 }
 
