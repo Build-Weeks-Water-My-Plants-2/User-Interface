@@ -1,6 +1,8 @@
 .boxes {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
 
     // background-image: url(https://i.pinimg.com/originals/68/45/f8/6845f840bcea7dd32e05a45977e2fd35.jpg);
@@ -10,6 +12,7 @@
         justify-content: center;
         align-items: center;
         padding:5%;
+        width: 40%;
     }
     .box1 {
         display: flex;
@@ -17,60 +20,86 @@
         justify-content: center;
         align-items: center;
         padding:5%;
+        width: 40%;
     }
     .box2 {
         display: flex;
         flex-direction: row;
+        justify-content: center;
         align-items: center;
         padding:5%;
+        width: 40%;
     }
     .box3 {
         display: flex;
         flex-direction: row;
+        justify-content: center;
         align-items: center;
         padding:5%;
+        width: 40%;
     }
     .box4 {
         display: flex;
         flex-direction: row;
+        justify-content: center;
         align-items: center;
         padding:5%;
+        width: 40%;
     }
     .box5 {
         display: flex;
         flex-direction: row;
+        justify-content: center;
         align-items: center;
         padding:5%;
+        width: 40%;
     }
     .box6 {
         display: flex;
         flex-direction: row;
+        justify-content: center;
         align-items: center;
         padding:5%;
+        width: 40%;
     }
     .box7 {
         display: flex;
         flex-direction: row;
+        justify-content: center;
         align-items: center;
         padding:5%;
+        width: 40%;
     }
     .box8 {
         display: flex;
         flex-direction: row;
+        justify-content: flex-start;
         align-items: center;
         padding:5%;
+        width: 40%;
+    }
+    .box10 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding:5%;
+        width: 40%;
+        img {
+            height: 20rem;
+            width: 20rem;
+        }
     }
 }
-.pics{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 40%;
+img {
+    width: 15rem;
+    height: 15rem;
 }
 .words {
     display: flex;
     flex-direction: column;
-    padding: 2%;
+    width: 50%;
+    padding: 10%;
     .names {
         font-size: 2rem;
         color: white;
@@ -82,6 +111,8 @@
         color: white;
         text-shadow: -1px -1px 0 rgb(23, 85, 23), 1px -1px 0 rgb(23, 85, 23), -1px 1px 0 rgb(23, 85, 23), 1px 1px 0 rgb(23, 85, 23);
         font-weight: bolder;
+        display: flex;
+        flex-wrap: nowrap;
     }
     .descrip {
         font-size: 2rem;
