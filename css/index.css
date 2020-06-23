@@ -159,7 +159,6 @@ img {
   height: auto;
 }
 .container {
-  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
 }
@@ -204,7 +203,7 @@ nav .linksRight {
 }
 .picture {
   height: 35rem;
-  border: 1px solid black;
+  border: 2px solid black;
   width: 100%;
   margin: 0 auto;
   background-image: url(https://d39l2hkdp2esp1.cloudfront.net/img/photo/174043/174043_00_2x.jpg);
