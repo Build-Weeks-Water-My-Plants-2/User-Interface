@@ -1,35 +1,52 @@
 h4 {
     display: flex;
     flex-wrap: nowrap;
-    width:20rem;
     color: white;
+    padding: 0rem 4rem 0rem 2rem;
+    @media @mobile {
+        padding: 1.5rem 0rem 2rem 0rem;
+        margin-left: 2rem;
+    }
 }
 .navigator {
     background-color: rgb(23, 85, 23);
 }
 .inNav {
     background-color: rgba(0, 7, 1, 0.2);
+    @media @mobile {
+        background-color: rgb(23, 85, 23);
+        border-bottom: 1px solid black;
+    }
 }
-nav {
+.linksAll {
     display: flex;
+    justify-content: space-between;
     flex-wrap: nowrap;
     align-items: baseline;
-    padding: 1rem;
-    a {
-        color: white;
-        font-size: 2rem;
-        width: 15rem;
-        text-decoration: none;
+    width: 100%;
+    .linksRight {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: baseline;
     }
     .linksLeft {
         display: flex;
-        justify-content: flex-start;
-        padding-left: 5rem;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: baseline;
     }
-    .linksRight {
-        display: flex;
-        justify-content: flex-end;
-        padding-left: 47rem;
+    a {
+        color: white;
+        font-size: 2rem;
+        text-decoration: none;
+        padding: 2rem;
     }
 }
+.links {
+    @media @mobile {
+        display: none;
+    }
+}
+
 

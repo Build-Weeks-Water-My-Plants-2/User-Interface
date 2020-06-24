@@ -6,7 +6,7 @@
 .picture {
     height: 35rem;
     border: 2px solid black;
-    width: 100%;
+    width: 99%;
     margin: 0 auto;
     background-image: url(https://d39l2hkdp2esp1.cloudfront.net/img/photo/174043/174043_00_2x.jpg);
     h1 {
@@ -16,6 +16,9 @@
         flex-direction: row;
         font-size: 5rem;
         color: white;
+        @media @mobile {
+            font-size: 3.5rem;
+        }
     }
     .boldMe {
         font-weight: bolder;
@@ -31,17 +34,63 @@
     flex-direction: column;
     margin: 0 35% 0 35%;
     padding-top: 3rem;
+    @media @mobile {
+        margin: 0% 10% 5% 10%;
+    }
+    p {
+        @media @mobile {
+            font-size: 2rem;
+        }
+    }
+    .bottomPara {
+        @media @mobile {
+            display: none;
+        }
+    }
 }
 .clickMe {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     padding-top: 2rem;
     margin: 0 35% 0 35%;
+    @media @mobile {
+        margin: 0% 5% 0% 5%;
+        padding-top: 0rem;
+    }
     .button {
         background-color: rgb(1, 107, 1);
         color: white;
         border-radius: 8px;
         padding: 1rem;
         width: 100%;
+        @media @mobile {
+            display: none;
+        }
+    }
+    .button2 {
+        display: none;
+        @media @mobile {
+            display: initial;
+            background-color: rgb(1, 107, 1);
+            color: white;
+            border-radius: 8px;
+            padding: 1rem;
+            width: 100%;
+            font-weight: bold;
+        }
+    }
+    .button3 {
+        display: none;
+        @media @mobile {
+            display: initial;
+            color: rgb(1, 107, 1);
+            background-color: white;
+            border-radius: 8px;
+            padding: 1rem;
+            width: 100%;
+            font-weight: bold;
+            margin: 5% 0% 10% 0%;
+        }
     }
 }
