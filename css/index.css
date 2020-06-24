@@ -329,12 +329,28 @@ h4 {
   padding-top: 5rem;
   text-decoration: underline;
 }
+@media (max-width: 500px) {
+  .meetThe {
+    display: flex;
+    justify-content: flex-start;
+    color: black;
+    font-size: 2rem;
+    padding: 2rem 0rem 0rem 2rem;
+    text-decoration: none;
+  }
+}
 .boxes {
   display: flex;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+}
+@media (max-width: 500px) {
+  .boxes {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .boxes .box9 {
   display: flex;
@@ -344,6 +360,13 @@ h4 {
   padding: 5%;
   width: 40%;
 }
+@media (max-width: 500px) {
+  .boxes .box9 {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+  }
+}
 .boxes .box1 {
   display: flex;
   flex-direction: row;
@@ -351,6 +374,13 @@ h4 {
   align-items: center;
   padding: 5%;
   width: 40%;
+}
+@media (max-width: 500px) {
+  .boxes .box1 {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+  }
 }
 .boxes .box2 {
   display: flex;
@@ -360,6 +390,13 @@ h4 {
   padding: 5%;
   width: 40%;
 }
+@media (max-width: 500px) {
+  .boxes .box2 {
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+  }
+}
 .boxes .box3 {
   display: flex;
   flex-direction: row;
@@ -367,6 +404,13 @@ h4 {
   align-items: center;
   padding: 5%;
   width: 40%;
+}
+@media (max-width: 500px) {
+  .boxes .box3 {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+  }
 }
 .boxes .box4 {
   display: flex;
@@ -376,6 +420,13 @@ h4 {
   padding: 5%;
   width: 40%;
 }
+@media (max-width: 500px) {
+  .boxes .box4 {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+  }
+}
 .boxes .box5 {
   display: flex;
   flex-direction: row;
@@ -383,6 +434,13 @@ h4 {
   align-items: center;
   padding: 5%;
   width: 40%;
+}
+@media (max-width: 500px) {
+  .boxes .box5 {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+  }
 }
 .boxes .box6 {
   display: flex;
@@ -392,6 +450,13 @@ h4 {
   padding: 5%;
   width: 40%;
 }
+@media (max-width: 500px) {
+  .boxes .box6 {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+  }
+}
 .boxes .box7 {
   display: flex;
   flex-direction: row;
@@ -399,6 +464,13 @@ h4 {
   align-items: center;
   padding: 5%;
   width: 40%;
+}
+@media (max-width: 500px) {
+  .boxes .box7 {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+  }
 }
 .boxes .box8 {
   display: flex;
@@ -408,6 +480,13 @@ h4 {
   padding: 5%;
   width: 40%;
 }
+@media (max-width: 500px) {
+  .boxes .box8 {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+  }
+}
 .boxes .box10 {
   display: flex;
   flex-direction: row;
@@ -416,9 +495,22 @@ h4 {
   padding: 5%;
   width: 40%;
 }
+@media (max-width: 500px) {
+  .boxes .box10 .words {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .boxes .box10 {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  }
+}
 .boxes .box10 img {
   height: 25rem;
   width: 25rem;
+  border: none;
 }
 img {
   width: 25rem;
@@ -427,7 +519,10 @@ img {
 }
 @media (max-width: 500px) {
   img {
+    width: 15rem;
+    height: 15rem;
     border: 0px solid #175517;
+    margin-left: 2rem;
   }
 }
 .words {
@@ -443,6 +538,13 @@ img {
   font-weight: bolder;
   padding: 1rem;
 }
+@media (max-width: 500px) {
+  .words .names {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+  }
+}
 .words .titles {
   font-size: 2rem;
   color: white;
@@ -453,6 +555,13 @@ img {
   flex-wrap: nowrap;
   padding: 1rem;
 }
+@media (max-width: 500px) {
+  .words .titles {
+    display: flex;
+    justify-content: center;
+    font-size: 1.75rem;
+  }
+}
 .words .descrip {
   font-size: 2rem;
   color: white;
@@ -460,4 +569,11 @@ img {
   font-weight: bolder;
   font-style: italic;
   padding: 1rem;
+}
+@media (max-width: 500px) {
+  .words .descrip {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
 }
